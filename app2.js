@@ -2,13 +2,13 @@
 const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScUrj36R-uXIE1YGdUobYLI1Bu9By7amBocNwTEeXdhGKxW0g/viewform?usp=dialog";
 
 const RECOMMENDATION_HTML = `
-  <p><b>Here are some Book recommendations to know and learn about Spirituality.</b></p>
+  <p><b>Some recommended books to know & learn more about Spirituality:</b></p>
   <ul>
+    <li>Join the “Journey of Self Discovery” course</li>
+    <li>The Science of Self Realization</li>
     <li>Bhagavad-gītā As It Is</li>
     <li>Kṛṣṇa Book</li>
-    <li>The Science of Self Realization</li>
-    <li>Srimad Bhagwatam</li>
-    <li>Join the “Journey of Self Discovery” course</li>
+    <li>Srimad Bhāgavatam</li>
   </ul>
 
   <div class="actions" style="margin-top:8px">
