@@ -40,7 +40,7 @@ const baseQuestions = [
   {
     id: 1,
     type: "mc",
-    q: "Q1. What do you think is the main purpose of life?",
+    q: "What do you think is the main purpose of life?",
     opts: [
       ["a) Enjoy as much as possible", 0],
       ["b) Earn money and comfort", 1],
@@ -51,7 +51,7 @@ const baseQuestions = [
   {
     id: 2,
     type: "mc",
-    q: "Q2. When facing a big problem, what is most helpful?",
+    q: "When facing a big problem, what is most helpful?",
     opts: [
       ["a) Running away", 0],
       ["b) Fighting with anger", 1],
@@ -62,7 +62,7 @@ const baseQuestions = [
   {
     id: 3,
     type: "mc",
-    q: "Q3. In the Bhagavad Gita, Arjuna was confused. What do you do when confused?",
+    q: "In the Bhagavad Gita, Arjuna was confused. What do you do when confused?",
     opts: [
       ["a) Ignore and hope it passes", 0],
       ["b) Ask friends/family only", 1],
@@ -73,7 +73,7 @@ const baseQuestions = [
   {
     id: 4,
     type: "mc",
-    q: "Q4. What does yoga mean to you?",
+    q: "What does yoga mean to you?",
     opts: [
       ["a) Physical exercise/stretching", 0],
       ["b) Discipline of body and mind", 1],
@@ -84,7 +84,7 @@ const baseQuestions = [
   {
     id: 5,
     type: "mc",
-    q: "Q5. Which quality do you value most?",
+    q: "Which quality do you value most?",
     opts: [
       ["a) Power", 0],
       ["b) Wealth", 1],
@@ -95,7 +95,7 @@ const baseQuestions = [
   {
     id: 6,
     type: "mc",
-    q: "Q6. How do you feel when you see nature (sunrise, river, trees)?",
+    q: "How do you feel when you see nature (sunrise, river, trees)?",
     opts: [
       ["a) Just ordinary", 0],
       ["b) Nice view", 1],
@@ -106,7 +106,7 @@ const baseQuestions = [
   {
     id: 7,
     type: "mc",
-    q: "Q7. Why do you think people read spiritual books?",
+    q: "Why do you think people read spiritual books?",
     opts: [
       ["a) Just tradition", 0],
       ["b) Time pass", 1],
@@ -117,7 +117,7 @@ const baseQuestions = [
   {
     id: 8,
     type: "mc",
-    q: "Q8. If you could ask God one thing, what would it be?",
+    q: "If you could ask God one thing, what would it be?",
     opts: [
       ["a) Money & success", 0],
       ["b) Health & long life", 1],
