@@ -17,7 +17,7 @@ const RECOMMENDATION_HTML = `
     </button>
   </div>
 
-  <p class="mini">Also, visit the temple and associate with spiritual practitioners to learn more.</p>
+  <p class="mini">Also, visit the temple and connect with spiritual practitioners to learn more.</p>
 `;
 
 function shuffleInPlace(arr) {
