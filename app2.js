@@ -253,7 +253,7 @@ function computeAndShowResult() {
   else if (out100 >= 25) { tier = "Practical"; tagClass = "practical"; }
 
   // Add a non-judgmental disclaimer under the heading every time
-const disclaimerText = "🌿 This is a light, non-judgmental self-check meant for reflection and fun — not labels.";
+const disclaimerText = "🌿 This is a non-judgmental self-check quiz meant for reflection, introspection & enhancing spirituality in your life for profound happiness.";
 document.getElementById("disclaimer")?.remove(); // avoid duplicates on restart
 document.getElementById("hello").insertAdjacentHTML(
   "afterend",
