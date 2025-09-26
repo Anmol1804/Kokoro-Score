@@ -35,7 +35,7 @@ const questions = [
   {
     id: 4,
     type: "mc",
-    q: "Q5. What does yoga mean to you?",
+    q: "Q4. What does yoga mean to you?",
     opts: [
       ["a) Physical exercise/stretching", 0],
       ["b) Discipline of body and mind", 1],
@@ -46,7 +46,7 @@ const questions = [
   {
     id: 5,
     type: "mc",
-    q: "Q6. Which quality do you value most?",
+    q: "Q5. Which quality do you value most?",
     opts: [
       ["a) Power", 0],
       ["b) Wealth", 1],
@@ -57,7 +57,7 @@ const questions = [
   {
     id: 6,
     type: "mc",
-    q: "Q8. How do you feel when you see nature (sunrise, river, trees)?",
+    q: "Q6. How do you feel when you see nature (sunrise, river, trees)?",
     opts: [
       ["a) Just ordinary", 0],
       ["b) Nice view", 1],
@@ -68,7 +68,7 @@ const questions = [
   {
     id: 7,
     type: "mc",
-    q: "Q9. Why do you think people read spiritual books?",
+    q: "Q7. Why do you think people read spiritual books?",
     opts: [
       ["a) Just tradition", 0],
       ["b) Time pass", 1],
@@ -79,7 +79,7 @@ const questions = [
   {
     id: 8,
     type: "mc",
-    q: "Q10. If you could ask God one thing, what would it be?",
+    q: "Q8. If you could ask God one thing, what would it be?",
     opts: [
       ["a) Money & success", 0],
       ["b) Health & long life", 1],
