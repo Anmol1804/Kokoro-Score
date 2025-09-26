@@ -58,3 +58,10 @@ a,a:visited{color:#9ddcff}
 @media (max-width: 420px) {
   .hero-card { display: none; }
 }
+
+
+#disclaimer {
+  margin: 6px 0 14px;
+  opacity: 0.9;
+  font-style: italic;
+}
