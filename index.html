@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kokoro Score — A gentle life & spirituality check</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">🧘‍♂️ Spirituality Quiz</div>
+      <div id="stepPill" class="pill">Step <span id="stepNow">1</span>/<span id="stepTotal">13</span></div>
+    </header>
+
+    <div class="progress" aria-hidden="true"><div class="bar" id="bar"></div></div>
+
+    <!-- START SCREEN -->
+    <section id="screen-start" class="card grid grid-2" role="region" aria-label="Start">
+      <div>
+        <h1>Welcome 🙏</h1>
+        <p class="note">Enter your name and hit <b>Take Quiz</b>. You'll get a spiritual inclination score and personalized reading suggestions.</p>
+        <p class="note">
+          Note - A friendly, non-judgmental check-in for first-timers and lifelong seekers.
+        </p>
+        <label for="name" class="mini">Your name</label>
+        <input id="name" class="name-input" type="text" placeholder="e.g., Anmol" autocomplete="name" />
+        <div class="actions" style="margin-top:14px">
+          <button class="primary" id="btnStart">Take Quiz →</button>
+          <button class="ghost" id="btnSkipName" title="You can stay anonymous">Skip name</button>
+        </div>
+        <p class="mini" style="margin-top:10px">Tip: Use <span class="kbd">←</span>/<span class="kbd">→</span> to move between questions.</p>
+      </div>
+      <div class="card hero-card">
+        <img src="iskcon.jpeg" alt="Spiritual theme" class="hero-img" loading="lazy" />
+       </div>
+    
+      <!-- <div class="card" style="background:rgba(255,255,255,.03)">
+        <p class="muted">🧮 Scoring</p>
+        <ul class="small">
+          <li>Q1–Q10: a=0, b=1, c=2, d=3 points</li>
+          <li>Q11–Q12: keywords (peace, truth, God, soul, liberation, love, harmony) add +2 each (capped at +6 total)</li>
+          <li>Max 36 points. Shown as /36, /10, and /100 scales.</li>
+        </ul>
+      </div> -->
+    </section>
+
+    <!-- QUESTION SCREEN -->
+    <section id="screen-q" class="card hidden" role="region" aria-label="Question">
+      <div id="qWrap"></div>
+      <div class="actions" style="margin-top:10px">
+        <button id="prevBtn" class="ghost">← Previous</button>
+        <div style="flex:1"></div>
+        <button id="nextBtn" class="primary">Next →</button>
+      </div>
+    </section>
+
+    <!--
+    <section id="screen-result" class="card hidden" role="region" aria-label="Result">
+      <h2 id="hello">Your Results</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="small muted">Total Score</div>
+          <div class="score" id="totalScore">0</div>
+          <div class="small">/36 → <b id="out10">0.0</b> /10 • <b id="out100">0</b>/100</div>
+          <div style="margin-top:10px">
+            <span id="tierTag" class="tag material">Material</span>
+          </div>
+        </div>
+        <div class="card rec">
+          <div class="small muted">Recommendation</div>
+          <div id="reco"></div>
+        </div>
+      </div>
+      <div class="actions" style="margin-top:14px">
+        <button id="restart" class="ghost">Restart</button>
+        <button id="printBtn" class="primary">Save/Print</button>
+      </div>
+      <footer>Scoring keywords recognized in Q11–Q12: <i>peace, truth, God, soul, liberation, love, harmony</i>.</footer>
+    </section>
+  </div>
+  <script src="app2.js"></script>
+</body>
+</html>
+-->
+
+<!-- RESULT SCREEN -->
+<section id="screen-result" class="card hidden" role="region" aria-label="Result">
+  <h2 id="hello">Your Results</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="small muted">Score</div>
+      <div class="score"><span id="out100">0</span>/100</div>
+
+      <div style="margin-top:10px">
+        <span id="tierTag" class="tag material">Material</span>
+      </div>
+    </div>
+    <div class="card rec">
+      <div class="small muted">Recommendation</div>
+      <div id="reco"></div>
+    </div>
+  </div>
+  <div class="actions" style="margin-top:14px">
+    <button id="restart" class="ghost">Restart</button>
+    <button id="printBtn" class="primary">Save/Print</button>
+  </div>
+  <!-- <footer>Scoring keywords recognized in Q11–Q12: <i>peace, truth, God, soul, liberation, love, harmony</i>.</footer> -->
+</section>
+ </div>
+  <script src="app.js"></script>
+</body>
+</html>

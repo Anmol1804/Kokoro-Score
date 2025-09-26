@@ -1,0 +1,60 @@
+:root{--bg:#0b1020;--card:#121833;--muted:#8ea1ff;--accent:#7cf5ff;--text:#e9edff;--good:#22c55e;--warn:#f59e0b;--bad:#ef4444}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,'Helvetica Neue',Arial,sans-serif;background:radial-gradient(1200px 800px at 80% -10%,#17204a,transparent),var(--bg);color:var(--text)}
+.wrap{max-width:900px;margin:0 auto;padding:24px}
+.card{background:linear-gradient(180deg,rgba(255,255,255,0.04),rgba(255,255,255,0.02));backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,0.08);border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.35);padding:20px}
+header{display:flex;gap:16px;align-items:center;justify-content:space-between;margin-bottom:16px}
+.logo{font-weight:700;letter-spacing:.5px}
+.muted{color:var(--muted)}
+.progress{height:10px;background:#1b2450;border-radius:999px;overflow:hidden}
+.bar{height:100%;width:0;background:linear-gradient(90deg,var(--accent),#9bffb8)}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+button{cursor:pointer;border:none;border-radius:12px;padding:12px 16px;font-weight:600;transition:.2s;background:#20306e;color:#fff}
+button:hover{filter:brightness(1.1)}
+button.primary{background:linear-gradient(135deg,#4760ff,#22d3ee)}
+button.ghost{background:transparent;border:1px solid rgba(255,255,255,.12)}
+.grid{display:grid;gap:16px}
+@media(min-width:720px){.grid-2{grid-template-columns:1.1fr .9fr}}
+.q{font-size:1.2rem;font-weight:700;margin:6px 0 4px}
+.opt{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid rgba(255,255,255,.12);border-radius:14px;cursor:pointer}
+.opt input{accent-color:#7cf5ff}
+.opt:hover{background:rgba(255,255,255,.06)}
+.small{font-size:.92rem}
+.pill{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(124,245,255,.1);border:1px solid rgba(124,245,255,.35);color:var(--accent);font-weight:600}
+.hidden{display:none}
+.center{display:flex;align-items:center;justify-content:center}
+.name-input{width:100%;padding:14px 16px;border-radius:12px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.06);color:var(--text)}
+.note{font-size:.95rem;opacity:.9}
+.score{font-size:2.8rem;font-weight:800;letter-spacing:.5px}
+.tag{padding:6px 10px;border-radius:999px;font-weight:700}
+.tag.material{background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.5);color:#fecaca}
+.tag.practical{background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.5);color:#fde68a}
+.tag.peace{background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.5);color:#bbf7d0}
+.tag.spiritual{background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.5);color:#bfdbfe}
+.rec{border-left:4px solid var(--accent);padding-left:14px}
+footer{margin-top:18px;font-size:.9rem;opacity:.8}
+.kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;border:1px solid rgba(255,255,255,.2);border-bottom-width:2px;border-radius:8px;padding:1px 6px}
+.mini{font-size:.88rem;opacity:.8}
+a,a:visited{color:#9ddcff}
+
+
+.hero-card {
+  background: rgba(255,255,255,.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+  object-fit: cover;
+}
+
+/* Optional: hide image on very small screens */
+@media (max-width: 420px) {
+  .hero-card { display: none; }
+}
